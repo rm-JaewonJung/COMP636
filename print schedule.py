@@ -9,3 +9,9 @@ def print_schedule():
 if __name__ == "__main__":
     print("My schedule:")
     print_schedule()
+    testtext='test text'
+    testint= 10000
+    print("testtext value is",testtext,"and type is ",type(testtext))
+    print("testint value is",testint,"and type is ",type(testint))
+    
+
