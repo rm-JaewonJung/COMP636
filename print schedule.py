@@ -14,6 +14,7 @@ if __name__ == "__main__":
     print("testtext value is",testtext,"and type is ",type(testtext))
     print("testint value is",testint,"and type is ",type(testint))
     print('done')
-    print('yay')
+    print('added this yay')
+    print('is this updated')
     
 
