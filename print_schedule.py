@@ -1,7 +1,5 @@
 def add(a: int, b: int, c: int) -> int:
     return a + b + c
-def value_type_test(name):
-    return f'the value is ${name}'
 def print_schedule():
     print("Learning sessions:")
     print('  ''Tuesdays: 9:00am - 10:30am')
@@ -25,4 +23,3 @@ x = int("100")
 print(x)
 add(1,2,3)
 print(add)
-print(value_type_test(testtext))
