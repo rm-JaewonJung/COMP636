@@ -1,3 +1,7 @@
+def add(a: int, b: int, c: int) -> int:
+    return a + b + c
+def value_type_test(name):
+    return f'the value is ${name}'
 def print_schedule():
     print("Learning sessions:")
     print('  ''Tuesdays: 9:00am - 10:30am')
@@ -13,8 +17,12 @@ if __name__ == "__main__":
     testint= 10000
     print("testtext value is",testtext,"and type is ",type(testtext))
     print("testint value is",testint,"and type is ",type(testint))
-    print('done')
-    print('added this yay')
-    print('is this updated???')
-    
-
+vartest = "10000"    
+print("vartest value is",vartest,"and type is ",type(vartest))
+vartest1 = int("100")
+print("vartest value is",vartest1*3,"and type is ",type(vartest1))
+x = int("100")
+print(x)
+add(1,2,3)
+print(add)
+print(value_type_test(testtext))
